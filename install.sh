@@ -13,6 +13,7 @@ DRIVER_DIR=$BUILD_DIR/mwifiex
 PATCH_FILE=$script_dir/ps5-iw620.patch
 RECOVER_PATCH=$script_dir/ps5-iw620-cmd-timeout-recover.patch
 KERNEL71_PATCH=$script_dir/ps5-iw620-kernel71-compat.patch
+KERNEL72_PATCH=$script_dir/ps5-iw620-kernel72-compat.patch
 RTNL_PATCH=$script_dir/ps5-iw620-rtnl-bounded-wait.patch
 
 MODULE_DIR=/lib/modules/$KERNEL_RELEASE/extra/ps5-iw620
